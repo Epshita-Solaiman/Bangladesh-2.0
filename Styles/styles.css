@@ -1,0 +1,622 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* nav styles */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 24px ;
+   margin-left: 160px;
+   margin-right: 160px;
+   
+    
+}
+nav li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    
+}
+.btn-primary{
+    font-size: 18px;
+    font-weight: 500;
+    color: #006A50;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+/* banner styles */
+.banner{
+    display: flex;  
+       margin-top: 44px;   
+         justify-content: space-between; 
+             margin-top: 60px;   
+               margin-left: 160px; 
+                   margin-right: 160px;
+                    background-color: #C6E4D6;    
+                    border-radius: 25px; 
+
+}
+.banner-content{
+    max-width: 600px;
+    margin-top: auto;
+   margin-bottom: auto;
+   margin-left: 60px;
+   margin-right: 598px;
+   
+}
+.banner-title{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+.banner-dp{
+    width: 480px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.banner-description{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+.btn-2{
+    width: 270px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    background-color: #006A50;
+    border-radius: 5px;
+    border: none;
+    padding: 17px 34px 17px 34px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+.skill-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 160px;
+margin-top: 80px;
+}
+/* skills styless */
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 160px;
+    margin-right: 160px;
+   
+
+}
+.skill-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 14px;
+}
+.skill p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.skill{
+    padding: 30px;
+    width: 302px;
+    height: 244px;
+    background-color:beige;
+    border-radius: 10px;
+    gap: 24px;
+}
+.skill img{
+    margin-bottom: 24px;
+}
+/* technology styles */
+.technology-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 160px;
+margin-top: 80px;
+}
+
+.tech-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 160px;
+    margin-top: 24px;
+    margin-right: 160px;
+    margin-bottom: 32px;
+    
+}
+.tech-container{
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+    justify-content: space-around;
+    
+    
+}
+.tech-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 24px;
+
+
+}
+.tech-skill{
+  gap: 35px;
+  width: 400px;
+height: 250px;
+padding: 32px;
+margin: 0px auto;
+
+}
+.tech-skill img{
+    margin-bottom: 24px;
+}
+.tech-skill-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 24px;
+}
+.tech-container-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 20px;
+}
+.tech-container-2{
+    background-color:rgb(198, 228, 214);
+    border-radius: 20px;
+}
+.tech-container-3{
+   background-color:  rgb(247, 235, 207);
+   border-radius: 20px;
+}
+
+.btn-1{
+    width: 270px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(84, 144, 245);
+    border-radius: 5px;
+    border: none;
+    padding: 17px 34px 17px 34px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+.btn-3{
+    width: 270px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(255, 194, 57);
+    border-radius: 5px;
+    border: none;
+    padding: 17px 34px 17px 34px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+.lengthy-description{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 12px;
+}
+.hero{
+  
+Font-weight: 700;
+Font-size: 20px;
+color: rgba(14, 14, 14, 0.8);
+margin-bottom: 4px;
+}
+.hero-title{
+
+Font-weight: 400;
+Font-size: 16px;
+color: rgba(14, 14, 14, 0.6);
+
+
+}
+.description{
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 32px;
+    background-color:bisque;
+    border-radius: 20px;
+    padding: 48px 24px 48px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 34px 4.57px;
+}
+
+/* news style */
+.news-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 160px;
+margin-right: 160px;
+margin-top: 70px;
+margin-bottom: 10px;
+}
+.news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 160px;
+   margin-right: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.news-card{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 160px;
+    margin-right: 160px;
+    gap: 32px;
+}
+.satelite-head{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+.satetile-info img{
+    margin: 12px 0px;
+}
+.satelite-info span{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.satelite-container{
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;    
+    margin-top: 32px;
+     border-radius: 24px;
+
+    background: beige;
+}
+.sat-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.logo{
+  
+position: static;
+width: 134px;
+height: 40px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 12px 0px;
+}
+#date{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+#time{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 12px;
+}
+.sat-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+margin-bottom: 15px;
+}
+.satelite-info{
+    gap: 15px;
+    margin-left: 50px;
+}
+.satelite-container img{
+    border-radius: 20px;
+}
+.stat-btn button{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+width: 139px;
+height: 48px;
+padding: 13px 26px 13px 26px;
+background-color: rgb(0, 106, 80);
+border-radius: 8px;
+border-style: none;
+margin-top: 32px;
+cursor: pointer;
+}
+.satelite-container2{
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;    
+    margin-top: 32px;
+     border-radius: 24px;
+
+    background: beige;
+}
+.satelite-container2 img{
+    border-radius: 20px
+}
+.donate-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin: 24px 0px;
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-left: 250px;
+margin-right: 250px;
+justify-content: center;
+align-items: center;
+gap: 24;
+}
+.donate-content{
+    display: flex;
+          justify-content: space-around;  
+            margin-bottom: 20px;
+}
+.donation{
+    padding: 40px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            margin-left: 135px;
+            margin-top: 32px;
+            cursor: pointer;
+            font-size: 32px;
+            font-weight: bold;
+          color:  rgba(14, 14, 14, 0.8);
+          border-radius: 15px;
+
+
+            
+}
+.donation-box input{
+   
+   height: 55px; 
+   width: 75%;
+   color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 25px;
+font-weight: 400;
+text-align: center;
+padding:  30px;
+margin-left: 275px;
+
+}
+.done-btn{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+width: 90px;
+height: 50px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 15px;
+ font-weight: 600;
+text-align: center;
+margin-left: 920px;
+margin-top: 32px;
+cursor: pointer;
+margin-bottom: 50px;
+
+}
+.footer-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+margin-top: 40px;
+}
+.footer-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 16px;
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+}
+.text-button input{
+    width: 45%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+background-color: white;
+margin-top: 16px;
+ border-style: none; 
+
+}
+.text-button button{
+    background-color: #006A50;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    width: 150px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+margin-right: 260px;
+cursor: pointer;
+}
+.little-title{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 16px;
+}
+
+
+.last-footer h4{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+.icon-img{
+    text-align: center;
+    margin-top: 20px;
+}
+.footer{
+    border-radius: 24px;
+
+background: rgb(198, 228, 214);
+margin-left: 160px;
+width:1250px; 
+height: 300px;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+ margin: 0 auto;
+}
+.donation:hover{
+    background-color: turquoise;
+}
+
